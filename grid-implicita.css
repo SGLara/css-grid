@@ -1,0 +1,19 @@
+.contenedor {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: 200px 100px 200px;
+
+    grid-auto-columns: 100px;
+    grid-auto-flow: dense;
+}
+
+.contenedor .span2 {
+    grid-column: span 2;
+    background: orangered;
+}
+
+.contenedor .span3 {
+    grid-column: span 3;
+    background: rgb(145, 255, 0);
+}
